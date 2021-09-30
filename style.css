@@ -6,3 +6,21 @@ body {
     font-family: helvetica;
     text-align: center;
 }
+
+.bingo-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    border: 1px solid black;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bingo-number {
+    height: 75px;
+    line-height: 75px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin: .5rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
