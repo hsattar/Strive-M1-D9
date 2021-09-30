@@ -17,7 +17,8 @@ body {
     margin: 0 auto;
 }
 
-.bingo-number {
+.bingo-number,
+.user-number {
     height: 50px;
     line-height: 50px;
     border: 1px solid #e6e5e5;
@@ -42,4 +43,12 @@ body {
 .highlighted {
     background-color: #e6e5e5;
     color: #3e3e3e;
+}
+
+.userboard-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    border: 1px solid #e6e5e5;
+    max-width: 75%;
+    margin: 0 auto;
 }
